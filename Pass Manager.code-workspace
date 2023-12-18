@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../Pass Manager"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Home Page"
+	}
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PassX - Generator</title>
+    <link rel="stylesheet" href="styleg.css">
+</head>
+<body>
+<script src="https://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/sha256.js"></script>
+
+    <nav>
+        <div class="logo"><a href="index.html" class="link">PassX</a></div>
+        <ul>
+            <li><a href='indexm.html' class="link">Manager</a></li>
+            <li><a href='indexg.html' class="link">Generator</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Password Generator</h2><br>
+        <p>We're thrilled to have you here. Your digital life contains a myriad of passwords, and we know how
+            challenging it can be to create them all. That's why we're here to make it easy for you.</p><br>
+    <h3>Create a Password</h3>
+        <form id="passwordForm" onsubmit="generatePassword(event)">
+            <label for="username">Username:</label>
+            <input class="inputlabel" type="text" id="username" name="username" required>
+    
+            <button class="btn" type="submit">Submit</button>
+        </form><br>
+        <pre><b><i>Your password is : </i></b><span id="generatedPassword"></span></pre>
+    </div>  
+    <script src="scriptg.js">
+    </script>    
+</body>
+</html>
